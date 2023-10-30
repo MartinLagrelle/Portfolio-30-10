@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../images/space3.jpg);
+    height: 1080px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.navBar{
+    
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    list-style: none;
+}
+
+.Logo{
+    height: 130px;
+    width: 130px;
+}
+
+li{
+    font-family: Arial, sans-serif;
+    font-size: 2.0em;
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
